@@ -44,7 +44,7 @@ We used **EfficientNet [B0-B6]**, **Resnest**,**Resnext**, with Sizes **192x192*
 - Weighted average
 - Power Average
 - Minmax ensemble(didn't help)<br>
-    <pre>       3hr before end of competition we came across rank ensembling and and we did this ensemble and got **9698** for our last submission</pre>
+<br>3hr before end of competition we came across rank ensembling and and we did this ensemble and got **0.9697** for our last submission
 
 ## Our 3 final Submission
 
@@ -52,10 +52,10 @@ We new the shakeup was coming, so we tried to select different approaches.
 
 1.  All 15+ pytorch gpu solution models(with context) - 0.9530 (public LB) 0.9380 (private LB) 0.9541 (CV)
 2.  15+ pytorch model (with context) and 15+ tf models (without context) - 0.9627 (public LB) 0.9470 (private LB) 0.9618 (CV)
-3.  Blend of public submission with 2nd submission with post proccessing technique - 0.9698 (public LB) 0.9126 (private LB) (overfitted)
+3.  Blend of public submission with 2nd submission with post proccessing technique - 0.9697 (public LB) 0.9126 (private LB) (overfitted)
 all the above were also ensembled with the meta only submission.
-<pre>
+<br>
     We wanted to give a shot to public lb overfitted submission but obviosly didn't work out well.
     I guess we were lucky enough to select the best private lb submission from our arsenel.
     We found the discussions and public kernels really fruitful and learnt a lot from this competition.
-<pre>
+
