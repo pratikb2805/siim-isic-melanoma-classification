@@ -1,4 +1,4 @@
-# [SIIM-ISIC Melanoma Classification](https://www.kaggle.com/c/siim-isic-melanoma-classification) (**6th rank approch**)
+# [SIIM-ISIC Melanoma Classification](https://www.kaggle.com/c/siim-isic-melanoma-classification) (**6th rank approach**)
 
 ### Identify melanoma in lesion images
 
